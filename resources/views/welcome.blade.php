@@ -19,6 +19,7 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+        @vite(['resources/js/app.js', 'resources/css/app.css'])
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
@@ -44,6 +45,10 @@
                         </g>
                     </svg>
                 </div>
+
+                <h1>Hello World from Blade</h1>
+
+                <div id="app"></div>
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
